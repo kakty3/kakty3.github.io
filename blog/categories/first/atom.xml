@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: first | My Octopress Blog]]></title>
+  <title><![CDATA[Category: first | Demurin's blog]]></title>
   <link href="http://kakty3.github.io/blog/categories/first/atom.xml" rel="self"/>
   <link href="http://kakty3.github.io/"/>
-  <updated>2013-11-03T01:29:37+07:00</updated>
+  <updated>2013-11-03T14:47:38+07:00</updated>
   <id>http://kakty3.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Sergey Demurin]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -18,8 +18,9 @@
     <link href="http://kakty3.github.io/blog/2013/11/02/my-first-article/"/>
     <updated>2013-11-02T19:24:00+07:00</updated>
     <id>http://kakty3.github.io/blog/2013/11/02/my-first-article</id>
-    <content type="html"><![CDATA[<h1 id="hello">Hello</h1>
-<p>My name is Sergey and I am a guy from Siberia </p>
+    <content type="html"><![CDATA[<h1>Hello</h1>
+
+<p>My name is Sergey and I am a guy from Siberia</p>
 ]]></content>
   </entry>
   

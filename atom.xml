@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Demurin's blog]]></title>
   <link href="http://kakty3.github.io/atom.xml" rel="self"/>
   <link href="http://kakty3.github.io/"/>
-  <updated>2013-11-03T01:29:37+07:00</updated>
+  <updated>2013-11-03T14:47:38+07:00</updated>
   <id>http://kakty3.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Sergey Demurin]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[SwipeSelection: твик, без которого нельзя]]></title>
+    <link href="http://kakty3.github.io/blog/2013/11/03/swipeselection-tvik/"/>
+    <updated>2013-11-03T03:07:00+07:00</updated>
+    <id>http://kakty3.github.io/blog/2013/11/03/swipeselection-tvik</id>
+    <content type="html"><![CDATA[<p>В Cydia есть всего парочка твиков, без которых я уже не мыслю свою жизнь: <strong>Activator</strong>, точнее возможность переключать песни удерживанием кнопок громкости; <strong>NCSettings</strong> (аналог FBSettings) &ndash; панель в Notification Center c кнопками быстрого доступа к самым нужным функциям ОС; и, наконец, <strong>SwipeSelection</strong> &ndash;   твик, позволяющий невероятно управлять курсором в текстовом поле. Нужную мне функцию Активатора можно получить, купив гарнитуру с кнопками управления плеером, &ldquo;быстрые иконки&rdquo; уже реализовали в iOS 7, но SwipeSelection пока остается эксклюзивом для джейлбрейкнутых девайсов.</p>
+
+<p><img class="center" src="http://2.bp.blogspot.com/-cFxG0j7bRI4/UaW-BgFzQOI/AAAAAAAAA08/JJe6INJSJRg/s1600/IMG_0112.jpg" width="600"></p>
+
+<p>Как же работает этот твик? Представьте, вы быстро пишете текст, и, скорее всего, делаете мелкие описки, например &ldquo;Я сегодня буду п<em>ЗО</em>дно &ndash; иду на футбол.&rdquo; Какие ваши дальнейшие действия? Вы либо стираете все вплоть до опечатки, исправляетесь и набираете заново, что довольно накладно на маленькой клавиатуре, либо тапаете по слову с ошибкой, удерживаете палец и пытаетесь поставить курсор в нужное место при помощи псеводноудобной лупы. Но все меняется когда у вас есть SwipeSelection. Чтобы сдвинуть курсор, вам нужно просто провести пальцем в нужную сторону. Это оказывается намного быстрее, удобнее и точнее. Проводя двумя пальцами, вы будете двигаться не по символам, а по словам. Более того, если вы сначала нажмете на кнопку Shift, а потом начнете движение, то , о чудо, текст будет выделяться.</p>
+
+<p>К SwipeSelection привыкаешь мгновенно, а выделение текста стандартным способом начинает доставлять физическую боль. Теперь, когда я буду думать, чего бы нового Apple могла бы добавить в iOS, первым в списке будет стоять именно эта функциональность.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Переключение между группами окон в Sublime Text]]></title>
+    <link href="http://kakty3.github.io/blog/2013/11/03/pieriekliuchieniie-miezhdu-ghruppami-okon-v-sublime-text/"/>
+    <updated>2013-11-03T01:31:00+07:00</updated>
+    <id>http://kakty3.github.io/blog/2013/11/03/pieriekliuchieniie-miezhdu-ghruppami-okon-v-sublime-text</id>
+    <content type="html"><![CDATA[<p>Недавно, работая с несколькими файлами в Sublime Text одновременно, я вспомнил, как удобно это было в моем дальнем линуксовом детстве в Vim. Очевидно, такая же функциональность оказалась и в сублиме. Выглядит это примерно так:</p>
+
+<p><img src="http://dl.dropboxusercontent.com/u/950949/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202013-10-17%20%D0%B2%2019.16.29.png"></p>
+
+<p>Однако сразу появился вопрос: как переключаться между группами. После непродолжительного гугления, я нашел плагин <em>Origami</em>, который якобы решал проблему. На деле оказалось, что он добавляет множество ненужных мне функций, а пользы от него, как от кота молока.</p>
+
+<p>Решение оказалось куда проще: комбинация &ldquo;⌘+k&rdquo;, &ldquo;⌘+влево/вправо&rdquo; переключает фокус на группу слева/справа (не Mac OS юзерам скорее всего стоит заменить ⌘ на ctrl, хотя я не уверен). Все бы хорошо, но такие шорткаты мне категорически не понравились. Чтобы использовать свои, нужно всего лишь выбрать в меню <strong>Sublime Text &ndash;> Preferences &ndash;> Key Bindings – User</strong> и добавить строчки внутрь глобальных квадратных скобок:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='json'><span class='line'><span class="p">{</span> <span class="nt">&quot;keys&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ctrl+alt+left&quot;</span><span class="p">],</span> <span class="nt">&quot;command&quot;</span><span class="p">:</span> <span class="s2">&quot;focus_neighboring_group&quot;</span><span class="p">,</span> <span class="nt">&quot;args&quot;</span><span class="p">:</span> <span class="p">{</span><span class="nt">&quot;forward&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">}</span> <span class="p">}</span><span class="err">,</span>
+</span><span class='line'><span class="p">{</span> <span class="nt">&quot;keys&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ctrl+alt+right&quot;</span><span class="p">],</span> <span class="nt">&quot;command&quot;</span><span class="p">:</span> <span class="s2">&quot;focus_neighboring_group&quot;</span> <span class="p">}</span><span class="err">,</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>После этого для нас с вами наступит счастье, а волосы на ладошках станут чистыми и шелковистыми.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[My first article]]></title>
     <link href="http://kakty3.github.io/blog/2013/11/02/my-first-article/"/>
     <updated>2013-11-02T19:24:00+07:00</updated>
     <id>http://kakty3.github.io/blog/2013/11/02/my-first-article</id>
-    <content type="html"><![CDATA[<h1 id="hello">Hello</h1>
-<p>My name is Sergey and I am a guy from Siberia </p>
+    <content type="html"><![CDATA[<h1>Hello</h1>
+
+<p>My name is Sergey and I am a guy from Siberia</p>
 ]]></content>
   </entry>
   
