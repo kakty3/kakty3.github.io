@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: ios | Demurin's blog]]></title>
+  <title><![CDATA[Category: iOS | Demurin's blog]]></title>
   <link href="http://kakty3.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://kakty3.github.io/"/>
-  <updated>2013-11-05T01:46:49+07:00</updated>
+  <updated>2013-11-05T02:01:06+07:00</updated>
   <id>http://kakty3.github.io/</id>
   <author>
     <name><![CDATA[Sergey Demurin]]></name>
@@ -19,6 +19,9 @@
     <updated>2013-11-03T03:07:00+07:00</updated>
     <id>http://kakty3.github.io/blog/2013/11/03/swipeselection-tvik</id>
     <content type="html"><![CDATA[<p>В Cydia есть всего парочка твиков, без которых я уже не мыслю свою жизнь: <strong>Activator</strong>, точнее возможность переключать песни удерживанием кнопок громкости; <strong>NCSettings</strong> (аналог FBSettings) &ndash; панель в Notification Center c кнопками быстрого доступа к самым нужным функциям ОС; и, наконец, <strong>SwipeSelection</strong> &ndash;   твик, позволяющий невероятно управлять курсором в текстовом поле. Нужную мне функцию Активатора можно получить, купив гарнитуру с кнопками управления плеером, &ldquo;быстрые иконки&rdquo; уже реализовали в iOS 7, но SwipeSelection пока остается эксклюзивом для джейлбрейкнутых девайсов.</p>
+
+<!-- more -->
+
 
 <p><img class="center" src="http://2.bp.blogspot.com/-cFxG0j7bRI4/UaW-BgFzQOI/AAAAAAAAA08/JJe6INJSJRg/s1600/IMG_0112.jpg" width="600"></p>
 
