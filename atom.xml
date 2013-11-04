@@ -4,7 +4,7 @@
   <title><![CDATA[Demurin's blog]]></title>
   <link href="http://kakty3.github.io/atom.xml" rel="self"/>
   <link href="http://kakty3.github.io/"/>
-  <updated>2013-11-05T00:02:24+07:00</updated>
+  <updated>2013-11-05T00:15:40+07:00</updated>
   <id>http://kakty3.github.io/</id>
   <author>
     <name><![CDATA[Sergey Demurin]]></name>
@@ -49,6 +49,49 @@
 
 
 <p>После этого для нас с вами наступит счастье, а волосы на ладошках станут чистыми и шелковистыми.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[testing all the new features of octopress]]></title>
+    <link href="http://kakty3.github.io/blog/2013/11/02/testing-all-the-new-features-of-octopress/"/>
+    <updated>2013-11-02T22:14:00+07:00</updated>
+    <id>http://kakty3.github.io/blog/2013/11/02/testing-all-the-new-features-of-octopress</id>
+    <content type="html"><![CDATA[<p><em>OK. First of all let&rsquo;s try to insert code block.</em></p>
+
+<p>Look at my &lsquo;SML&rsquo; code:</p>
+
+<figure class='code'><figcaption><span>SML function</span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">def</span> <span class="nf">try</span><span class="p">():</span>
+</span><span class='line'>    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+</span><span class='line'>        <span class="k">print</span> <span class="n">x</span><span class="p">,</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Coffeescript Tricks </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1"># Given an alphabet:</span>
+</span><span class='line'><span class="nv">alphabet = </span><span class="s">&#39;abcdefghijklmnopqrstuvwxyz&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Iterate over part of the alphabet:</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="nx">letter</span> <span class="k">for</span> <span class="nx">letter</span> <span class="k">in</span> <span class="nx">alphabet</span><span class="p">[</span><span class="mi">4</span><span class="p">..</span><span class="mi">8</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Add image</strong></p>
+
+<p><img src="http://placekitten.com/890/280"></p>
+
+<p><a href="http://yandex.ru">Яндекс</a></p>
 ]]></content>
   </entry>
   
