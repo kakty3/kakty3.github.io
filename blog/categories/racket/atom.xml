@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: racket | Demurin's blog]]></title>
+  <link href="http://kakty3.github.io/blog/categories/racket/atom.xml" rel="self"/>
+  <link href="http://kakty3.github.io/"/>
+  <updated>2013-11-27T00:37:20+07:00</updated>
+  <id>http://kakty3.github.io/</id>
+  <author>
+    <name><![CDATA[Сергей Демурин]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Добавляем поддержку SML & Racket в Sublime Text]]></title>
+    <link href="http://kakty3.github.io/blog/2013/11/08/dobavliaiem-poddierzhku-racket-v-sublime-text/"/>
+    <updated>2013-11-08T13:34:00+07:00</updated>
+    <id>http://kakty3.github.io/blog/2013/11/08/dobavliaiem-poddierzhku-racket-v-sublime-text</id>
+    <content type="html"><![CDATA[<p>Я прохожу он-лайн курс <a href="https://class.coursera.org/proglang-002/class">Programming Languages</a> на <strong>Coursera</strong>. Ранее я писал на SML, и, так как мой основной редактор &ndash; Sublime Text, то возникла необходимость добавить в него REPL.</p>
+]]></content>
+  </entry>
+  
+</feed>
